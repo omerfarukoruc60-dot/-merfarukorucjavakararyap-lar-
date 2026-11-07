@@ -1,6 +1,6 @@
 Ad Soyad: Ömer Faruk Oruç   Numara: 92   Sınıf: Hazırlık C
 
-Soru 1: Tek mi, Çift mi?
+Soru 1: Tek mi , Çift mi?
 Girdi / Beklenen çıktı / Programın çıktısı
 4 / çift / sayiniz 4 cift
 7 / tek / sayiniz 7 tek
