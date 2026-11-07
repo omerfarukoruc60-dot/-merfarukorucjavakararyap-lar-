@@ -1,0 +1,26 @@
+ödev4
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Sınav notunuzu giriniz dereceniz ekrana verilecek");
+        int not = input.nextInt();
+
+        if (not < 0 && not > 100) {
+            System.out.println("gecersiz not, 0 ile 100 arasi girin");
+        } else if (not >= 90) {
+            System.out.println("notunuz AA");
+        } else if (not >= 80) {
+            System.out.println("notunuz BA");
+        } else if (not >= 70) {
+            System.out.println("notunuz BB");
+        } else if (not >= 60) {
+            System.out.println("notunuz CB");
+        } else if (not >= 50) {
+            System.out.println("notunuz CC");
+        } else {
+            System.out.println("notunuz FF");
+        }
+    }
+}

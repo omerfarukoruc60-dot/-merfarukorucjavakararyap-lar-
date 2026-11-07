@@ -1,0 +1,19 @@
+ödev 1
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner ınput=new Scanner(System.in);
+        System.out.println("Bir sayi giriniz cift mi degil mi bakalim");
+        int sayı=ınput.nextInt();
+        int sayıkalan=(sayı%2);
+        if (sayıkalan==0) {
+            System.out.println("sayiniz "+sayı+" cift");
+        }else{
+            System.out.println("sayiniz "+sayı+ " tek");
+
+        
+        }
+
+        }
+}

@@ -1,0 +1,22 @@
+ödev 2
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("2 adet sayi girin, hangisi buyuk soyleyeyim");
+        System.out.println("birinci sayi:");
+        int sayi1 = input.nextInt();
+        System.out.println("ikinci sayi:");
+        int sayi2 = input.nextInt();
+
+        if (sayi1 == sayi2) {
+            System.out.println("iki sayi esit: " + sayi1);
+        } else if (sayi1 > sayi2) {
+            System.out.println("en buyuk sayi1 yani: " + sayi1);
+        } else {
+            System.out.println("en buyuk sayi2 yani: " + sayi2);
+        }
+
+    }
+}

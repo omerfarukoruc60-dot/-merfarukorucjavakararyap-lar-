@@ -1,0 +1,30 @@
+ödev7
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Basit hesap makinesine hosgeldiniz islem yapmak istediginiz iki sayiyi giriniz");
+        System.out.println("birinci sayiniz:");
+        int sayi1 = input.nextInt();
+        System.out.println("ikinci sayiniz:");
+        int sayi2 = input.nextInt();
+        System.out.println("islem seciniz (+, -, *, /):");
+        String islem = input.next();
+        if (islem.equals("+")) {
+            System.out.println("sonucunuz: " + (sayi1 + sayi2));
+        } else if (islem.equals("-")) {
+            System.out.println("sonucunuz: " + (sayi1 - sayi2));
+        } else if (islem.equals("*")) {
+            System.out.println("sonucunuz: " + (sayi1 * sayi2));
+        } else if (islem.equals("/")) {
+            if (sayi2 == 0) {
+                System.out.println("sifira bolunemez");
+            } else {
+                System.out.println("sonucunuz: " + (sayi1 / sayi2));
+            }
+        } else {
+            System.out.println("gecersiz islem");
+        }
+    }
+}
